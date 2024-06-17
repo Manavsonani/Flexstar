@@ -1,0 +1,181 @@
+$primary: #4154f1;
+$secondary: #012970;
+.text-lightgray{
+    color: lightgrey;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+
+$navbar-light-color: $secondary ;
+$navbar-light-hover-color: $primary ;
+$navbar-light-active-color: $primary ;
+
+.navbar{
+    .nav-item{
+        .nav-link{
+            word-spacing: 50px !important;
+        }
+    }
+}
+.services-card-1{
+    border: 0px !important;
+    border-bottom: 5px solid #2db6fa !important;
+    border-radius: 15px !important;
+    .fa-message{
+        padding: 10px;
+        color: #2db6fa !important;
+        background-color: #2db6fa72 !important;
+    }
+    a{
+        text-decoration: none;
+        color: #2db6fa ;
+    }
+    &:hover{
+        color: white;
+        background-color: #2db6fa !important;
+        .fa-message{
+            background-color:white !important;
+        }
+        a{
+            color: white ;
+        }
+    }
+}
+.services-card-2{
+    border: 0px !important;
+    border-bottom: 5px solid #f68c09 !important;
+    border-radius: 15px !important;
+    .fa-message{
+        padding: 10px;
+        color: #f68c09 !important;
+        background-color: #f68b0972 !important;
+    }
+    a{
+        text-decoration: none;
+        color: #f68c09 ;
+    }
+    &:hover{
+        color: white;
+        background-color: #f68c09 !important;
+        .fa-message{
+            background-color:white !important;
+        }
+        a{
+            color: white ;
+        }
+    }
+}
+.services-card-3{
+    border: 0px !important;
+    border-bottom: 5px solid #08da4e !important;
+    border-radius: 15px !important;
+    .fa-message{
+        padding: 10px;
+        color: #08da4e !important;
+        background-color: #08da4e67 !important;
+    }
+    a{
+        text-decoration: none;
+        color: #08da4e ;
+    }
+    &:hover{
+        color: white;
+        background-color: #08da4e !important;
+        .fa-message{
+            background-color:white !important;
+        }
+        a{
+            color: white ;
+        }
+    }
+}
+.services-card-4{
+    border: 0px !important;
+    border-bottom: 5px solid #e9222c !important;
+    border-radius: 15px !important;
+    .fa-message{
+        padding: 10px;
+        color: #e9222c !important;
+        background-color: #e9222c72 !important;
+    }
+    a{
+        text-decoration: none;
+        color: #e9222c ;
+    }
+    &:hover{
+        color: white;
+        background-color: #e9222c !important;
+        .fa-message{
+            background-color:white !important;
+        }
+        a{
+            color: white ;
+        }
+    }
+}
+.services-card-5{
+    border: 0px !important;
+    border-bottom: 5px solid #b50edf !important;
+    border-radius: 15px !important;
+    .fa-message{
+        padding: 10px;
+        color: #b50edf !important;
+        background-color: #b50edf6b !important;
+    }
+    a{
+        text-decoration: none;
+        color: #b50edf ;
+    }
+    &:hover{
+        color: white;
+        background-color: #b50edf !important;
+        .fa-message{
+            background-color:white !important;
+        }
+        a{
+            color: white ;
+        }
+    }
+}
+.services-card-6{
+    border: 0px !important;
+    border-bottom: 5px solid #f51f9c  !important;
+    border-radius: 15px !important;
+    .fa-message{
+        padding: 10px;
+        color: #f51f9c !important;
+        background-color: #f51f9c73 !important;
+    }
+    a{
+        text-decoration: none;
+        color: #f51f9c ;
+    }
+    &:hover{
+        color: white;
+        background-color: #f51f9c !important;
+        .fa-message{
+            background-color:white !important;
+        }
+        a{
+            color: white ;
+        }
+    }
+}
+
+$carousel-indicator-width:           10px;
+$carousel-indicator-height:          10px;
+$carousel-indicator-active-bg:       $primary;
+
+
+
+// index-1 start
+.back-photo{
+    background-image: url(../img/home-img.png);
+    // height: 600px;
+    width: 100%;
+    // background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
